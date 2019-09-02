@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/personnelList/main",
+    "pages/personnel/main",
+    "pages/personnelRadio/main",
+    "pages/index/main",
+    "pages/driver_service/main",
+    "pages/driver/main",
+    "pages/recruit_add/main",
+    "pages/vehicle/main",
+    "pages/recruit/main"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#012366",
+    "navigationBarTitleText": "三易智运",
+    "navigationBarTextStyle": "white"
+  }
+}

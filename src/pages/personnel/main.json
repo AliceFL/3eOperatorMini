@@ -1,0 +1,15 @@
+
+{
+  "navigationBarTitleText": "新增人员",
+  "usingComponents": {
+    "i-tab-bar": "../../../static/iview/tab-bar/index",
+    "i-tab-bar-item": "../../../static/iview/tab-bar-item/index",
+    "i-icon": "../../../static/iview/icon/index",
+    "i-tabs": "../../../static/iview/tabs/index",
+    "i-avatar": "../../../static/iview/avatar/index",
+    "i-spin": "../../../static/iview/spin/index",
+    "i-input": "../../../static/iview/input/index",
+    "i-panel": "../../../static/iview/panel/index",
+    "i-tab": "../../../static/iview/tab/index"
+  }
+}

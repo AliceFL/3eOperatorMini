@@ -1,0 +1,44 @@
+// mixin vms  time: 2019-01-08 / lingang
+
+// color ALL
+@vms-color: #012366;
+@vms-color-wathet: #b5b5b5;
+@vms-color-page-bg: #f0f0f0;
+@vms-color-black: #000;
+@vms-color-white: #fff;
+@vms-color-btn-bg: #F9F9F9;
+@vms-color-punish: #D4C6B8;
+
+// size ALL
+@vms-size: 50rpx;
+
+// function ALL
+// icon 设置
+.icon-size (@width, @height, @size, @color){
+  width: @width;
+  height: @height;
+  font-size: @size;
+  color: @color;
+}
+// 背景和字体颜色 设置
+.background-color (@color, @bg){
+  color: @color;
+  background-color: @bg;
+}
+// 圆角
+.border-radius (@radius: 5rpx) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+// flex 居中
+.flex-center-center () {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+// 宽高
+.width-height (@w, @h) {
+  width: @w;
+  height: @h;
+}
